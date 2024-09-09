@@ -37,9 +37,13 @@ The services layer contains business logic for each entity:
 
 Technologies Used
 ⚪ Java: Core programming language.
+
 ⚪ Object-Oriented Design: Used to manage airline operations in a modular way.
+
 ⚪ MVC Pattern: Ensures a clean separation between the application's data, logic, and presentation.
+
 ⚪ Version Control (Git): Git for source code management.
+
 How to Run the Application
 
 Clone the repository.
