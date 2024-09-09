@@ -26,19 +26,28 @@ These classes define the core entities of the system:
 Airplane.java: Represents the airplane details (e.g., capacity, model).
 
 ⚪ Client.java: Stores information about the clients making flight reservations.
+
 ⚪ Crew.java: Manages crew details, including pilots and flight attendants.
+
 ⚪ Flight.java: Holds all flight-related information like destinations, flight times, etc.
+
 ⚪ Reservation.java: Stores and manages flight reservation data.
+
 ⚪ Person.java: A base class for handling common attributes (e.g., name, age) between clients and crew.
 
 2. Services (src/main/java/services) .
 The services layer contains business logic for each entity:
 
 ⚪ AirplaneService.java: Handles airplane-related operations like creating and managing airplanes.
+
 ⚪ ClientService.java: Manages client accounts and their reservations.
+
 ⚪CrewService.java: Handles all processes related to crew members.
+
 ⚪ FlightService.java: Manages flight schedules and flight assignments.
+
 ⚪ ReservationService.java: Processes flight reservations, modifications, and cancellations.
+
 
 Technologies Used :
 
