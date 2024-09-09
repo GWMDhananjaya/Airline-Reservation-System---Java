@@ -7,15 +7,20 @@ https://github.com/user-attachments/assets/47369ac9-0f89-4a22-ba27-ffb85790ef10
 Features
 
 ⚪ Airplane Management: Add and manage airplane details like models, seating capacity, etc.
+
 ⚪ Flight Scheduling: Create and manage flight details including departure, arrival times, and routes.
+
 ⚪ Reservation System: Handle client reservations, cancellations, and modifications.
+
 ⚪ Crew Management: Assign crew members to flights and manage their schedules.
+
 ⚪ Client Management: Store client details and their booking history.
 
-Project Structure
+
+Project Structure : 
 The project is organized into two main components:
 
-1. Models (src/main/java/models)
+1. Models (src/main/java/models) .
 These classes define the core entities of the system:
 
 Airplane.java: Represents the airplane details (e.g., capacity, model).
@@ -26,7 +31,7 @@ Airplane.java: Represents the airplane details (e.g., capacity, model).
 ⚪ Reservation.java: Stores and manages flight reservation data.
 ⚪ Person.java: A base class for handling common attributes (e.g., name, age) between clients and crew.
 
-2. Services (src/main/java/services)
+2. Services (src/main/java/services) .
 The services layer contains business logic for each entity:
 
 ⚪ AirplaneService.java: Handles airplane-related operations like creating and managing airplanes.
@@ -35,7 +40,8 @@ The services layer contains business logic for each entity:
 ⚪ FlightService.java: Manages flight schedules and flight assignments.
 ⚪ ReservationService.java: Processes flight reservations, modifications, and cancellations.
 
-Technologies Used
+Technologies Used :
+
 ⚪ Java: Core programming language.
 
 ⚪ Object-Oriented Design: Used to manage airline operations in a modular way.
