@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Flight {
+    
     private String id;
     private String destination;
     private Crew pilot;

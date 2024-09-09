@@ -18,4 +18,5 @@ public class Reservation {
     public Flight getFlight() {
         return flight;
     }
+    
 }

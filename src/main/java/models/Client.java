@@ -23,4 +23,5 @@ public class Client extends Person {
     public List<Reservation> obtenirReservations() {
         return reservations;
     }
+    
 }
